@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="/contact-me">
+        <label for="Username">Username</label>
+        <input type="text" id="Username" placeholder="enter your name" required><br>
+        <label for="pass_word">Password:</label>
+        <input type="password" id="pass_word" placeholder="enter your password">
+        <br>
+        Date: <input type="date"><br>
+        File: <input type="file"><br>
+        Color: <input type="color"><br>
+        Price Range: <input type="range"><br>
+        Button : <input type="button" value="Button"><br>
+        <hr>
+        <form>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male"><br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female"><br>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other"><br>
+        </form>
+        <hr>
+        <form>
+        <label for="apple">Apple</label>
+        <input type="checkbox" id="apple" name="fruits" value="apple"><br>
+        <label for="bnana">Bnana</label>
+        <input type="checkbox" id="bnana" name="fruits" value="bnana"><br>
+        <label for="cherry">Cherry</label>
+        <input type="checkbox" id="cherry" name="fruits" value="cherry"><br>
+        </form>
+        <hr>
+        <form>
+            <label for="country">Select your country: </label>
+            <select id="country" name="country">
+                <option value="India">India</option>
+                <option value="US">US</option>
+                <option value="UK">UK</option>
+                <option value="Other">Other</option>
+            </select>
+        </form>
+        <hr>
+        <form>
+            <textarea name="story" id="story" rows="10" cols="50">
+                Please enter your story..
+            </textarea>
+        </form>
+        <hr>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/eILUmCJhl64?si=UMqgAGOqAQEA6KY1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <hr>
+        <input type="submit">
+    </form>
+</body>
+</html>
